@@ -14,11 +14,10 @@ def print_board(board):
     print("  a b c d e f g h")
     print("      WHITE     ")
 
-# Create an empty chess board
 board1 = chess.Board(fen="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")  # Starting position without pieces
 
 
-# Print the two chess boards
+
 print("Board 1:")
 print_board(board1)
 
